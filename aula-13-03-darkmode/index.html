@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>DarkMode</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/color.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="logo">Logo legal</div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div onclick="toggleDarkMode()" class="dark-mode-toggle">Dark Mode</div>
+        </nav>
+        <!--Seção de Cards-->
+        <section class="cards">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime praesentium voluptate repellat soluta libero, dolores nobis et vitae sit quasi quas doloremque nulla pariatur expedita. Eius accusamus voluptas voluptates.
+                </p>
+            </div><!-- Fim Card 1 -->
+
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime praesentium voluptate repellat soluta libero, dolores nobis et vitae sit quasi quas doloremque nulla pariatur expedita. Eius accusamus voluptas voluptates.
+                </p>
+            </div><!-- Fim Card 2 -->
+
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime praesentium voluptate repellat soluta libero, dolores nobis et vitae sit quasi quas doloremque nulla pariatur expedita. Eius accusamus voluptas voluptates.
+                </p>
+            </div><!-- Fim Card 3 -->
+        </section>
+
+        <footer>
+            <p>Pedro Paulo Gonçalves - 2025</p>
+        </footer>
+
+        <script src="js/script.js"></script>
+            <script>
+                function toggleDarkMode() {
+                    document.body.classList.toggle("dark-mode");
+                }
+            </script>
+    </body>
+</html>
